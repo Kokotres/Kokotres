@@ -68,22 +68,6 @@ Object.values(data.movies).forEach(key => {
 })
 console.log(`Prosjecna starost je ${sum / x.length}`)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 var actors = {};
 
 Object.keys(data.movies).forEach(function(key) {
@@ -100,13 +84,13 @@ Object.keys(actors).forEach(function(key) {
     if(aktor > 1) {
         console.log(key)
     }
+});
+
+Object.keys(data.movies).forEach(key => {
+    var jezik = data.movies[key];
+
+   // Ispišite za svaki jezik u koliko različitih filmova se koristi
 })
-
-
-
-
-
-
 
 
 
